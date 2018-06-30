@@ -1,0 +1,9 @@
+[Unit]
+Description=Python script to control Sonos volume via TV IR
+
+[Service]
+ExecStart=/usr/bin/python /home/pi/soco-remote.py
+User=root
+
+[Install]
+WantedBy=default.target
