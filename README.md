@@ -1,4 +1,3 @@
-# soco-remote
 SoCo-Remote
 ====
 I have a TV line out connected to a Sonos Connect:Amp and I needed a way to control the Sonos volume with my TV remote, so I built SoCo-Remote. SoCo-Remote is a basic background app that will listen for keyboard hotkeys and then trigger SoCo functions to control volume up/down of a Sonos player. I use this with a Raspberry Pi and a `FLIRC USB`_ that I have programmed to trigger those (full) keyboard hotkeys based on volume up/down IR calls from my TV remote.
